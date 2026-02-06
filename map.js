@@ -13,7 +13,10 @@ const squared = numbers.map(num => num * num);
 
 const friends = ['Zaved', 'Pavel', 'Nobel', 'Kodbel'];
 const nameLengths = friends.map(name => name.length);
-const firstLetters = friends.map(name => name[0]);
+const firstLetters = friends.map(name => name[0].toLowerCase());
 
-
-console.log(firstLetters);
+const result = numbers.map((num, index) => {
+    console.log(num*index)
+    return index
+})
+console.log(result);
