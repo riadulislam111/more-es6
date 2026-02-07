@@ -54,11 +54,11 @@ const fruits = ["apple", "banana", "mango", "orange"];
 // console.log(result);
 
 
-const people = [
-    { name: "Ali", age: 17 },
-    { name: "Sara", age: 22 },
-    { name: "Jhon", age: 19 }
-];
+// const people = [
+//     { name: "Ali", age: 17 },
+//     { name: "Sara", age: 22 },
+//     { name: "Jhon", age: 19 }
+// ];
 
-const adultsPerson = people.find(person => person.age > 18);
-console.log(adultsPerson);
+// const adultsPerson = people.find(person => person.age > 18);
+// console.log(adultsPerson);
